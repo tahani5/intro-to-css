@@ -1,0 +1,75 @@
+/*this is a CSS comment */
+html {
+  background-color: #ffffff;
+
+  /*
+  Black: #000000
+  White: #ffffff
+  Red: #ff0000
+  Blue: #0000ff
+
+  #00f
+
+  Grey: #ccc, #333
+
+  */
+
+  color: #000;
+}
+
+h1, h2 {
+  color: red;
+  font-weight: normal;
+  font-size: 5rem;
+  line-height: 1;
+  text-shadow: 2px -5px 10px red;
+
+  /*
+  text shadow
+  horizontal offset
+  vertical offset
+  blur radius/size
+  colour
+  */
+}
+
+p {
+  font-style: italic;
+  text-align: center;
+  /*
+  left
+  center
+  right
+  justify
+  */
+
+  /*
+  text-decoration: underline;
+  text-decoration: line-through;
+  */
+  font-family: 'Oswald', sans-serif;
+}
+
+ol {
+  list-style-type: disc;
+  /*
+  none
+  lower-roman
+  lower-alpha
+  decimal
+  circle
+  disc
+  */
+
+  /*
+  padding: 0;
+  */
+}
+
+a {
+  color: green;
+}
+
+a:hover {
+  color: orange;
+}
